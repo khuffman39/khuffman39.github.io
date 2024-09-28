@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body {
+    background-color: #98A869;
+    color: #525D31;
+    margin: 0;
+    height: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 1.5em;
+}
+
+h1 {
+    background-color: #E1EBC3;
+    color: #384020;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+h2 {
+    background-color: #384020;
+    color: #E1EBC3;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.alt-body {
+    font-size: 14px;
+  }
+
+.outer-container {
+    margin: 24px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.inner-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 1416px;
+    margin: 0 auto;
+    align-items: center;
+    /*padding: 10px ;  120/1416 */
+}
+
+.very-inset {
+    font-family: "Agbalumo", system-ui;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 90%;
+}
+
+.super-inset {
+    margin: 0 auto;
+    width: 90%; /* 694/1416 */
+    padding-bottom: 150px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.introduction {
+    position: relative;
+    overflow: hidden;
+    background-color: #E1EBC3;
+}
+.introduction .container {
+    z-index: 3;
+    padding-bottom: 96px;
+    padding-top: 96px;
+    position: relative;
+}
+.introduction .two-col {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3.389830508%; /* 48/1416 */
+    grid-row-gap: 32px;
+    justify-items: center;
+}
+
+a {
+  border-bottom: 0.5px solid #2C2622;
+  color: #E1EBC3;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 0.5px solid #98A869;
+  color: #98A869;
+}
+
+.contact-me {
+    position: relative;
+    overflow: hidden;
+    background-color: #384020;
+    color: #E1EBC3
+}
+
+.introduction img {
+    float: right;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    border: 0.5px solid #2C2622;
+}
+
+/* Add a dark green background color to the top navigation */
+.topnav {
+    background-color: #384020;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.02em
+}
+
+/* header and footer */
+/*
+header, footer {
+    background: #faefdd;
+}
+*/
+
+.name a {
+    float: left;
+    font-family: "Agbalumo", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #E1EBC3;
+}
+
+.name a:hover {
+    border-bottom: 0.5px solid #98A869;
+    color: #98A869;
+  }
+
+  /* about */
+.greeting {
+    position: relative;
+    overflow: hidden;
+    background-color: #E1EBC3;
+}
+
+.greeting .very-inset {
+    position: relative;
+    overflow: hidden;
+    background-color: #E1EBC3;
+    padding-top: 100px;
+}
+
+
+.greeting .super-inset {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.photo-cardset {
+    background-color: #384020;
+}
+
+.about-gallery {
+    display: flex;
+    column-gap: 24px;
+    margin: 56px 0;
+}
+
+.about-gallery figure {
+    background: #FFF;
+    border: 0.5px solid #2C2622;
+    padding: 12px 12px 8px 12px;
+    width: 100%;
+}
+
+.about-gallery img {
+    border: 0.5px solid #2C2622;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.about-gallery figcaption {
+    display: block;
+    font-size: 12px;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.about-gallery img {
+    height: 400px;
+    width: 400px;
+    border: 0.5px solid #2C2622;
+}
+
+
+
+@media screen and (min-width: 1201px) {
+
+    .wrapper {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .wrapper {
+        max-width: 85%;
+    }
+}
+    
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .wrapper {
+        max-width: 85%;     
+    }
+}
+
+@media screen and (max-width: 375px) {
+     .wrapper {
+            max-width: 95%;
+    }
+}
