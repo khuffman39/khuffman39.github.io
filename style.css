@@ -233,8 +233,13 @@ header, footer {
 
 
 .projects {
+    background-image: url(/Images/olive.jpg);
+}
+
+.projects .very-inset {
     background-color: #2C2622;
 }
+
 
 @media only screen and (max-width: 820px) {
     .about-gallery {
