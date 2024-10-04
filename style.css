@@ -515,6 +515,10 @@ h3:hover {
   }
 
 */
+
+.project-body {
+    background-color: #2C2622;
+}
 .project-body .container {
     background-color: #2C2622;
 }
