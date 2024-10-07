@@ -311,15 +311,6 @@ figure {
     justify-content: space-between;
     margin-top: 32px;
 }
-/*
-.image-container {
-    border: 0.5px solid #E1EBC3;
-    background-color: #2C2622;
-    width: 100%;
-    height: 364px;
-    margin-bottom: 24px;
-}
-*/
 
 .projects-preview li {
     background: #2C2622;
@@ -432,57 +423,6 @@ h3:hover {
     color: #98A869;
 }
 
-@media only screen and (max-width: 700px) {
-    .projects-preview li, .projects-preview p {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .projects-preview li {
-        padding: 16px;
-    }
-
-    .projects-preview ul {
-        margin: 16px 0 0 0;
-        display: block;
-      }
-}
-
-@media only screen and (max-width: 820px) {
-    .projects-preview li {
-        width: 47.08879185%;
-    }
-    .projects-preview li {
-        width: 100%;
-    }
-    .redesign-grid li{
-        width: 100%;
-    }
-    .introduction img {
-        height: 300px;
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 1110px) {
-    .projects-grid li {
-        margin-bottom: 40px;
-    }
-}
-/*
-.project1 {
-    color: #2C2622;
-    background: #faefdd;
-    border: 50px solid #2C2622;
-    margin: 48px 0 -140px 0;
-    padding: 8.474576271%;
-    position: relative;
-    text-align: left;
-    z-index: 4;
-}
-*/
-
-
 
 .mobile-nav {
     position: relative;
@@ -508,13 +448,6 @@ h3:hover {
     text-decoration: none;
     
   }
-/*
-  .mobile-nav ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
-*/
 
 .project-body {
     background-color: #2C2622;
@@ -568,6 +501,7 @@ h3:hover {
 }
 */
 
+/*
 .project-body img {
     height: auto;
     width: 100%;
@@ -586,7 +520,49 @@ h3:hover {
 }
 
 
+@media only screen and (max-width: 700px) {
+    .projects-preview li, .projects-preview p {
+        width: 100%;
+        flex-direction: column;
+    }
 
+    .projects-preview li {
+        padding: 16px;
+    }
+
+    .projects-preview ul {
+        margin: 16px 0 0 0;
+        display: block;
+      }
+}
+
+@media only screen and (max-width: 820px) {
+    .projects-preview li {
+        width: 47.08879185%;
+    }
+    .projects-preview li {
+        width: 100%;
+    }
+    .redesign-grid li{
+        width: 100%;
+    }
+    .introduction img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .projects-grid li {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+/*
+previous
+*/
 
 
 
